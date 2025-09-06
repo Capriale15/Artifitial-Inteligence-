@@ -25,22 +25,20 @@ Each example aims to be minimal, reproducible, and well-commented.
 
 Quick start
 
-Clone or download the repo.
+1. Clone or download the repo.
 
-(Optional) Create a virtual environment.
+2. (Optional) Create a virtual environment.
 
-Install dependencies:
+3. Install dependencies:
+          pip install -r requirements.txt
 
-pip install -r requirements.txt
-
-
-Open the notebooks in notebooks/ (locally or in Google Colab) and run cells in order.
+4. Open the notebooks in notebooks/ (locally or in Google Colab) and run cells in order.
 
 Repository structure
-notebooks/   # Step-by-step, student-facing notebooks
-src/         # Reusable functions (imported by notebooks)
-data/        # Small sample datasets for quick runs
-reports/     # Generated CSVs/plots from examples
+    notebooks/   # Step-by-step, student-facing notebooks
+    src/         # Reusable functions (imported by notebooks)
+    data/        # Small sample datasets for quick runs
+    reports/     # Generated CSVs/plots from examples
 
 Datasets
 
